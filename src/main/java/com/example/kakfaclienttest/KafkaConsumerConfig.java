@@ -45,7 +45,7 @@ public class KafkaConsumerConfig {
     @Value("${sleep.time:100}")
     private int sleepTime = 100;
 
-    //--broker=172.16.34.215:9092,172.16.34.216:9092,172.16.34.217:9092 --topic=test3 --numRecords=500000  --consumerCount=1 --printInterval=10000
+    //--broker=xxxx:9092 --topic=test3 --numRecords=500000  --consumerCount=1 --printInterval=10000
 
     @Bean
     public List<KafkaConsumer> consumers() {
