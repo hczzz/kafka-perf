@@ -47,7 +47,7 @@ public class KafkaProducerConfig {
     @Value("${printInterval}")
     private int printInterval = 5000;
 
-    //--broker=172.16.34.215:9092,172.16.34.216:9092,172.16.34.217:9092 --topic=test3 --numRecords=5000 --messageSize=400 --producerCount=10 --throughput=100 --printInterval=10000
+    //--broker=xxxx:9092 --topic=test3 --numRecords=5000 --messageSize=400 --producerCount=10 --throughput=100 --printInterval=10000
 
     @Bean
     public List<KafkaProducer> listens() {
